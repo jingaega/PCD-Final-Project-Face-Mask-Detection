@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.env
+
+# Dataset (download from Kaggle)
+data/raw/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.toc
+report/*.lof
+report/*.lot
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
